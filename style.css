@@ -1,0 +1,26 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+div{
+  margin: 100px 200px 0px 50px;
+  padding: 20px 0px 20px 20px;
+  background-color: yellowgreen;
+border: 5px solid #e42121;
+}
+
+p{
+  color: #7b2424;
+  font-size: 25px;
+  font-family: 'MyFont';
+}
+
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('Roboto-Medium.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
